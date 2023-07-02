@@ -1,0 +1,37 @@
+.dark .card{
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+#modoDark{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#dadosSalvos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+}
